@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Yalazz
+- 👋 Hi, I’m @Yalazz also my real name is Emre
 - 👀 I’m interested in: Playing instruments and playing games.
 - 🌱 I’m currently learning: C# and C++
 - 📫 How to reach me: emrebilici@ogrenci.beykoz.edu.tr & emreeblici@gmail.com
