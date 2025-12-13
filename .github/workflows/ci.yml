@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Update Blog Posts
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://medium.com/feed/@emrebilici"
+
+      - name: Update Credly Badges
+        uses: pemtajo/badge-readme@main
+        with:
+          CREDLY_USER: emre-bilici
